@@ -25,7 +25,8 @@ app.post('/posts', async (req, res) => {
         id, title
     };
 
-    await axios.post('http://localhost:4005/events', {
+    // Change to localhost if you want to test on your local machine
+    await axios.post('http://event-bus-srv:4005/events', {
         type: 'PostCreated',
         data: {
             id,
