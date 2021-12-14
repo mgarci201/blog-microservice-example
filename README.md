@@ -19,3 +19,8 @@ To run the app go to each folder and run npm install then:
 * Start by creating a post
 * Refresh the page to see the post
 * Then create a comment
+
+--------------------------------------------------
+With Docker & K8s:
+* Ensure to build all services to your own docker account `docker build -t <username>/<service> .`
+* Restart K8s for all services `kubectl rollout restart`
