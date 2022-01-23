@@ -4,7 +4,7 @@ import PostList from './PostList';
 
 const App = () => {
     return <div className="container">
-        <h1>Hello World</h1>
+        <h1>Create Posts Now</h1>
         <PostCreate />
         <hr />
         <h1>Posts</h1>
